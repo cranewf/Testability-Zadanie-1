@@ -2,11 +2,11 @@ public class BonusMilesService {
 
     public int calculate(int price) {
 
-       int cashback = 20;
+        int cashback = 20;
 
-       int miles = price / cashback;
+        int miles = price / cashback;
 
-       return miles;
+        return miles;
 
     }
 }
